@@ -10,3 +10,7 @@ I made a basic calculator using HTML, CSS and Javascript which also includes fea
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
   
+## Preview:
+
+<img src="https://github.com/vrushalipachchigar/Simple-Calculator/blob/main/calc-light.png">
+<img src="https://github.com/vrushalipachchigar/Simple-Calculator/blob/main/calc-dark.png">
