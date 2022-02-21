@@ -23,7 +23,8 @@
             <div class="row inp justify-content-center" style="width: 340px; height: 150px; margin: 0;">
 
                 <!-- This input box shows the button pressed by the user in calculator. -->
-                <input class="inp justify-content-center" id="calc" type="text" name="answer" style="outline: 0;" disabled> <br>
+                <input class="inp justify-content-center" id="calc" type="text" name="answer" onkeydown="if (event.keyCode == 13){
+                document.getElementById('=').click()} else if (event.keyCode == 53){document.getElementById('%').click()}" style="outline: 0;"> <br>
 
             </div>
             <div class="row grey-color dark-theme" style="padding-top: 15px; width: 348px;  margin: 0; border-radius: 20px;">
@@ -33,7 +34,7 @@
                             <button class="operator teal black" onclick="clearScreen()" id="all-clear">AC</button>
                         </div>
                         <div class=" col">
-                            <button class="operator teal black" id="plus-minus" onclick="plusminus()">&#177;</button>
+                            <button class="operator teal black" id="plus-minus" onclick="plusminus()">+/-</button>
                         </div>
                         <div class=" col">
                             <button class="operator teal  black" id="%" value="%" onclick="percentage()">%</button>
@@ -105,6 +106,7 @@
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </body>
 
 </html>

@@ -30,8 +30,6 @@ function plusminus() {
     var p = document.getElementById("calc").value;
     var q = p * -1;
     document.getElementById("calc").value = q;
-
-
 }
 
 function darkmode() {
