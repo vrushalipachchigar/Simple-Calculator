@@ -1,4 +1,5 @@
     .grey-color {
+        transition: all 300ms ease;
         background-color: #F9F9F9;
     }
     
@@ -49,6 +50,7 @@
     }
     
     .dark {
+        transition: all 500ms ease;
         background-color: #22252D;
         color: #e6e6e6;
     }
@@ -92,31 +94,21 @@
     button.btn:focus {
         outline: 0;
         box-shadow: 0 0 0 0;
-        /* border-color: transparent; */
     }
     
     button.toggler {
         background-color: #F9F9F9;
         border-radius: 30%;
+        transition: all 500ms ease;
         /* color: #4B4E55; */
     }
-    /* .darkimg {
-        background-color: #F9F9F9;
-        border-top-right-radius: 30%;
-        border-bottom-right-radius: 30%;
-        opacity: 50%; */
-    /* color: #E2E2E2; */
-    /* } */
     
     input {
-        /* width: 20px; */
         background-color: #FFFFFF;
+        /* transition: all 300ms ease; */
         color: #232731;
         text-align: right;
-        /* border: 3px solid gray; */
-        /* border-radius: 5px; */
         padding-top: 26px;
-        /* margin: 5px; */
         font-size: 50px;
     }
     
@@ -125,27 +117,8 @@
         height: 140px;
         border: 0;
         font-size: 40px;
-        /* border: 5px solid black; */
-        /* border-radius: 3px; */
         padding: 20px;
-        /* margin: auto; */
     }
-    /* #history {
-        text-align: right;
-        height: 50px;
-        margin: 0 20px;
-        padding-top: 20px;
-        font-size: 30px;
-        color: #919191;
-    }
-    
-    #output {
-        text-align: right;
-        height: 75px;
-        margin: 10px 20px;
-        font-size: 60px;
-    }
-    */
     
     .operator,
     .number {
@@ -158,6 +131,7 @@
         font-weight: bold;
         font-size: 20px;
         background-color: #F7F7F7;
+        transition: all 500ms ease;
     }
     
     .number,
